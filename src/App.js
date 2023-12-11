@@ -19,6 +19,15 @@ function App() {
       >
         Generate
       </Button>
+      <Button
+        variant="contained"
+        color="primary"
+        onClick={() => {
+          alert(answer);
+        }}
+      >
+        testing
+      </Button>
     </Box>
   );
 }
